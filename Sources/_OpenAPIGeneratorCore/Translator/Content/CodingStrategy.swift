@@ -29,7 +29,6 @@ enum CodingStrategy: String, Hashable, Sendable {
 
     /// A strategy using multipart/form-data.
     case multipart
-    
     /// A strategy using optional CustomCoder.
     case xml
 
