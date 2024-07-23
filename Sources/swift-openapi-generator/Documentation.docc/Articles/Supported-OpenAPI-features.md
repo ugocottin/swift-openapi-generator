@@ -25,8 +25,8 @@ For any other formats, the payload is provided as raw bytes (using the `HTTPBody
 - [x] multipart
     - for details, see [SOAR-0009](https://swiftpackageindex.com/apple/swift-openapi-generator/main/documentation/swift-openapi-generator/soar-0009)
 - [X] XML
-    - when content type is `application/json` or ends with `+json`
-    - custom coder must be defined in `OpenAPIRuntime.Configuration`
+    - when content type is `application/xml` or ends with `+xml`
+    - xmlCoder must be defined in `OpenAPIRuntime.Configuration`
 
 ### OpenAPI specification features
 

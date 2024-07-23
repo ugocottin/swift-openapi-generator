@@ -348,6 +348,7 @@ enum Constants {
 
         /// The substring used in method names for the multipart coding strategy.
         static let multipart: String = "Multipart"
+
         /// The substring used in method names for the XML coding strategy.
         static let xml: String = "XML"
     }
